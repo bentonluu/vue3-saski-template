@@ -1,6 +1,6 @@
-# bcds-admin-console
+# vue3-saski-template
 
-This template should help get you started developing with Vue 3 in Vite.
+Vue 3 in Vite with basic Saski theme (PrimeVue).
 
 ## Recommended IDE Setup
 
