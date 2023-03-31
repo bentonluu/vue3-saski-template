@@ -31,7 +31,7 @@ import ColumnGroup from "primevue/columngroup";
 import ConfirmDialog from "primevue/confirmdialog";
 import ConfirmPopup from "primevue/confirmpopup";
 import ConfirmationService from "primevue/confirmationservice";
-import ContextMenu from "primevue/contextmenu";
+// import ContextMenu from "primevue/contextmenu"; // Causes issue when npm run build
 import DataTable from "primevue/datatable";
 import DataView from "primevue/dataview";
 import DataViewLayoutOptions from "primevue/dataviewlayoutoptions";
@@ -141,7 +141,7 @@ app.component("Column", Column);
 app.component("ColumnGroup", ColumnGroup);
 app.component("ConfirmDialog", ConfirmDialog);
 app.component("ConfirmPopup", ConfirmPopup);
-app.component("ContextMenu", ContextMenu);
+// app.component("ContextMenu", ContextMenu);
 app.component("DataTable", DataTable);
 app.component("DataView", DataView);
 app.component("DataViewLayoutOptions", DataViewLayoutOptions);
